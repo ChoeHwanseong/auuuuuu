@@ -13,5 +13,6 @@ public interface MembersRepository extends JpaRepository<MembersEntity,Long> {
 
 	//이메일 존재 여부용(WHERE eMail=?):서비스단의 중복아이디 검증용
 	boolean existsByEmail(String email);
+	
 
 }

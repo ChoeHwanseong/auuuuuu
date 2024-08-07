@@ -50,7 +50,8 @@ public class SecurityConfig{
 		
 		http.oauth2Login(auth-> auth
 				.loginPage("/oauth-login/login")
-				.defaultSuccessUrl("/oath-login")
+				.defaultSuccessUrl("/oauth-login")
+				.failureUrl("/oauth-login/login")
 				.permitAll()
 		);
 		

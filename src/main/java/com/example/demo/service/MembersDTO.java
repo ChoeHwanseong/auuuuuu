@@ -27,7 +27,7 @@ public class MembersDTO {
 	private String telnumber;
 	private String address;
 	private LocalDateTime createdAt;
-	private String issocial;
+	private Integer issocial;
 	private String Role;
 	private String guidelicense;
 	
